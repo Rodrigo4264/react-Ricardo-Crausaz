@@ -1,0 +1,20 @@
+.ItemListContainer{
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+    url(../../imagen/ItemListContainer/fondoItemListContainer.jpg);
+    text-align: center;
+}
+
+.ItemListContainer h1{
+    margin: 0;
+    color: white;
+    font-size: 5rem;
+}
+
+.ItemListContainer p{
+    font-size: 2rem;
+    color: white;
+    opacity: 0.7;    
+}
