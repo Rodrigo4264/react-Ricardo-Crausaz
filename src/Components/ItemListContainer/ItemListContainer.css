@@ -2,6 +2,7 @@
     background-size: cover;
     background-position: center;
     height: 100vh;
+    padding: 5rem;
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
     url(../../imagen/ItemListContainer/fondoItemListContainer.jpg);
     text-align: center;
