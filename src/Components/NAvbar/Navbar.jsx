@@ -10,10 +10,10 @@ const Navbar=()=>{
             <nav className='navbar'>
                 <h1 className='navbar-logo'>Ateneo Libros</h1>
                 <ul className='ul-navbar-menu'>
-                    <li className='navbar-menu'>LIBROS</li>
-                    <li className='navbar-menu'>MUSICA</li>
-                    <li className='navbar-menu'>PEICULAS</li>
-                    <li className='navbar-menu'>PROMOCIONES</li>
+                    <li className='navbar-menu'>  <a href=''>LIBROS</a> </li>
+                    <li className='navbar-menu'> <a href=''>MUSICA</a> </li>
+                    <li className='navbar-menu'> <a href=''>PEICULAS</a> </li>
+                    <li className='navbar-menu'> <a href=''>PROMOCIONES</a> </li>
                 </ul>
                 <CartWidget/>
                 

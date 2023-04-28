@@ -4,10 +4,13 @@ import './App.css'
 import ItemListContainer from './Components/ItemListContainer/ItemListContainer'
 
 function App() {
+
+  const mensaje = 'Bienvnenidos a el mejor lugar para encontrar tu libro favorito'
+
   return (
     <div className='App'>
       <Navbar/>
-      <ItemListContainer/>
+      <ItemListContainer greeting={mensaje}/>
     </div>
   )
 }

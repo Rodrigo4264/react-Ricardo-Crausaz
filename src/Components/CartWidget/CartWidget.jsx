@@ -3,7 +3,10 @@ import './CartWidget.css'
 
 function CartWidget(){
     return(
-        <p className="seecarrito">🛒</p>
+        <div className='carrito-contenedor'>
+            <p className='carrito-cantidad'>1</p>
+            <p className='seecarrito'>🛒</p>
+        </div>
     )
 };
 
